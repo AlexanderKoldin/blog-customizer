@@ -113,12 +113,14 @@ export const ArticleParamsForm = ({
 					/>
 
 					<div className={styles.bottomContainer}>
-						<Button title='Сбросить' type='clear' onClick={handleReset} />
 						<Button
-							title='Применить'
-							type='apply'
-							onClick={() => handleSubmit()}
+							title='Сбросить'
+							type='clear'
+							htmlType='button'
+							onClick={handleReset}
 						/>
+
+						<Button title='Применить' type='apply' htmlType='submit' />
 					</div>
 				</form>
 			</aside>
