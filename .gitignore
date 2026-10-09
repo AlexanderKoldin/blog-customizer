@@ -20,3 +20,6 @@ dist
 .yarn
 
 storybook-static
+
+# macOS
+.DS_Store
